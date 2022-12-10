@@ -21,7 +21,7 @@
 
 .l-content {
     display: grid;
-    grid-template-rows: 30px 355px 355px 55px;
+    grid-template-rows: 30px 355px 10px 355px 55px;
     grid-template-columns: 65% 1fr;
     gap: 15px;
 
@@ -75,6 +75,12 @@
     justify-content: space-between;
     align-content: center;
     padding: 10px;
+}
+
+.tab {
+    grid-row: 3;
+    grid-column: 1;
+    background-color: #c6c6c6;
 }
 
 .side {
