@@ -4,7 +4,7 @@
 }
 
 .nav {
-    height: 7vh;
+    height: 10vh;
     background-color: #666666;
 }
 
@@ -35,7 +35,7 @@
 }
 .r-content {
     display: grid;
-    grid-template-rows: 85% 55px 1fr ;
+    grid-template-rows: 85% 55px 53% ;
     grid-template-columns: 1fr;
     
     gap: 20px;
