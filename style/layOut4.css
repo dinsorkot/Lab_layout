@@ -35,10 +35,11 @@
 }
 .r-content {
     display: grid;
-    grid-template-rows: 50% 55px 40% ;
+    grid-template-rows: 85% 55px 1fr ;
     grid-template-columns: 1fr;
-    gap: 10px;
-
+    
+    gap: 20px;
+    padding-top: 10px;
     box-sizing:border-box;
 
     width: 70%;
@@ -108,7 +109,7 @@
 }
 
 .l-img {
-    height: 50%;
+    height: 50%;margin-top: 20px;
     background-color: #c6c6c6;
     margin-bottom: 10%;
 }
@@ -122,7 +123,6 @@
 }
 
 .r-img {
-
     grid-row: 1;
     height: 100%;
     background-color: #999999;
@@ -135,14 +135,19 @@
 
 .box {
     display: grid;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr 5px 1fr;
     gap: 5px;
 }
 
 .r-card {
     box-sizing: border-box;
     padding: 10px;
-    border: 1px solid #c6c6c6;
+    /* border: 1px solid #c6c6c6; */
+}
+
+.r-tab {
+    grid-row: 2;
+    background-color: #c6c6c6;
 }
 
 .r-card-content {
