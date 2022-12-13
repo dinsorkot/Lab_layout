@@ -21,11 +21,7 @@
 
 .l-content {
     display: grid;
-<<<<<<< HEAD
     grid-template-rows: 30px 355px 5px 355px 55px;
-=======
-    grid-template-rows: 30px 355px 10px 355px 55px;
->>>>>>> f9e24cd6667134d3bfbec81ee3b64d558ffc161f
     grid-template-columns: 65% 1fr;
     gap: 15px;
 
@@ -39,11 +35,7 @@
 }
 .r-content {
     display: grid;
-<<<<<<< HEAD
     grid-template-rows: 51.3% 55px 40% ;
-=======
-    grid-template-rows: 85% 55px 53% ;
->>>>>>> f9e24cd6667134d3bfbec81ee3b64d558ffc161f
     grid-template-columns: 1fr;
     
     gap: 20px;
