@@ -21,7 +21,7 @@
 
 .l-content {
     display: grid;
-    grid-template-rows: 30px 355px 355px 55px;
+    grid-template-rows: 30px 355px 5px 355px 55px;
     grid-template-columns: 65% 1fr;
     gap: 15px;
 
@@ -35,7 +35,7 @@
 }
 .r-content {
     display: grid;
-    grid-template-rows: 50% 55px 40% ;
+    grid-template-rows: 51.3% 55px 40% ;
     grid-template-columns: 1fr;
     gap: 10px;
 
@@ -63,6 +63,11 @@
     justify-content: space-between;
     align-content: center;
     padding: 10px;
+}
+
+.line {
+    grid-column: 1;
+    background-color: #e8e8e8;
 }
 
 .row2 {
